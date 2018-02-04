@@ -29,6 +29,6 @@
 https://www.figma.com/file/cm6RIsahCwElwP8Bo7wKC961/Clinic-Health
 
 ### Tech Stack : 
-> Front End : React js
-> Back End : Express 
-> Database : PostgrSql 
+>  Front End : React js  
+  Back End : Express  
+  Database : PostgrSql 
