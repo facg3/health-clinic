@@ -12,7 +12,7 @@ class Navbar extends Component {
           <li><a href='#'>Home</a></li>
           <li><a href='#'>Doctors</a></li>
           <li><a href='#aboutUs'>About Us</a></li>
-          <li><a href='#'>Coutact</a></li>
+          <li><a href='#contactUs'>Coutact</a></li>
         </ul>
         <ul className='secondUl'>
           <li><a href='#'><i className='fab fa-facebook-f'></i></a></li>
