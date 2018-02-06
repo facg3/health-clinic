@@ -1,0 +1,34 @@
+.slideshow-wrapper img{
+  height: 80vh;
+}
+
+.button{
+  text-decoration: none;
+  width: 11em;
+  background:#66D49D;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  border-radius: 10px;
+}
+.button>a{
+  color: white;
+  text-decoration: none;
+}
+.button>a:hover{
+  color: black;
+}
+
+@media only screen and (max-width:1024px) {
+  .slideshow-wrapper img{
+    height: 50vh;
+  }
+  .button{
+    top: 40%;
+  }
+}

@@ -5,7 +5,7 @@ import './ContactStyle.css';
 class Contact extends Component {
   render () {
     return (
-      <div className='contactUs'>
+      <div id='contactUs' className='contactUs'>
       <section className='contactUs'>
   <ul className="footer-list-top">
     <li>
