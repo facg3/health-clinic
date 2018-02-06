@@ -21678,6 +21678,10 @@ var _Slider = __webpack_require__(39);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
+var _Doctors = __webpack_require__(97);
+
+var _Doctors2 = _interopRequireDefault(_Doctors);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -21702,7 +21706,8 @@ var Home = function (_Component) {
         'div',
         null,
         _react2.default.createElement(_Navbar2.default, null),
-        _react2.default.createElement(_Slider2.default, null)
+        _react2.default.createElement(_Slider2.default, null),
+        _react2.default.createElement(_Doctors2.default, null)
       );
     }
   }]);
@@ -27246,6 +27251,176 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 // module
 exports.push([module.i, ".zoom-wrapper {\n  width: 100%;\n  overflow: hidden; }\n  .zoom-wrapper .images-wrap {\n    display: flex;\n    flex-wrap: wrap; }\n    .zoom-wrapper .images-wrap div {\n      position: absolute; }\n      .zoom-wrapper .images-wrap div img {\n        width: 100%; }\n\n.container {\n  display: flex;\n  align-items: center; }\n  .container .nav {\n    height: 30px;\n    background: rgba(255, 255, 255, 0.6);\n    width: 30px;\n    z-index: 10;\n    line-height: 30px;\n    font-size: 20px;\n    text-align: center;\n    cursor: pointer;\n    color: #fff;\n    border-radius: 15px; }\n    .container .nav:hover {\n      background: white;\n      color: #666; }\n    .container .nav:first-of-type {\n      margin-right: -30px; }\n    .container .nav:last-of-type {\n      margin-left: -30px; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+__webpack_require__(98);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Doctors = function (_Component) {
+  _inherits(Doctors, _Component);
+
+  function Doctors() {
+    _classCallCheck(this, Doctors);
+
+    return _possibleConstructorReturn(this, (Doctors.__proto__ || Object.getPrototypeOf(Doctors)).apply(this, arguments));
+  }
+
+  _createClass(Doctors, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { id: 'doctors' },
+        _react2.default.createElement(
+          'div',
+          { className: 'doctor' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(
+              'div',
+              { className: 'base' },
+              _react2.default.createElement('i', { className: 'fa fa-user-md' })
+            ),
+            ' '
+          ),
+          ' ',
+          _react2.default.createElement(
+            'div',
+            { className: 'text' },
+            _react2.default.createElement(
+              'h3',
+              null,
+              ' Doctors Location '
+            ),
+            ' ',
+            _react2.default.createElement(
+              'p',
+              null,
+              ' WE ARE RELIABLE & TRUSTED '
+            ),
+            ' '
+          ),
+          ' ',
+          _react2.default.createElement(
+            'div',
+            { className: 'imgs' },
+            _react2.default.createElement(
+              'a',
+              { href: '/hebron' },
+              _react2.default.createElement('img', { src: './assets/hebron.png', className: 'dr_location' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'hebron' },
+                ' Hebron '
+              ),
+              ' '
+            ),
+            ' ',
+            _react2.default.createElement(
+              'a',
+              { href: '/gaza' },
+              _react2.default.createElement('img', { src: './assets/gaza.png', className: 'dr_location' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'gaza' },
+                ' Gaza '
+              ),
+              ' '
+            ),
+            ' ',
+            _react2.default.createElement(
+              'a',
+              { href: '/jerusalem' },
+              _react2.default.createElement('img', { src: './assets/jerusalem.png', className: 'dr_location' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'jerusalem' },
+                ' Jerusalem '
+              ),
+              ' '
+            ),
+            ' '
+          ),
+          ' '
+        ),
+        ' '
+      );
+    }
+  }]);
+
+  return Doctors;
+}(_react.Component);
+
+exports.default = Doctors;
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(99);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(16)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!./style.css", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!./style.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".container {\n  display: flex;\n  justify-content: center;\n}\n.dr_location {\n  position: relative;\n  top: 16.5%;\n}\n.fa {\n  bottom: 12px;\n  position: relative;\n}\n.text {\n  position: relative;\n  top: 30px;\n  margin-top: -33px;\n  text-align: center;\n  color: #55635c;\n}\n.text p {\n  font-size: 12px;\n}\n.base {\n  background: #66d49d;\n  display: inline-block;\n  height: 55px;\n  text-align: center;\n  color: #eb5757;\n  font-size: 53px;\n  margin-top: -42px;\n  position: relative;\n  width: 100px;\n}\n\n.base:before {\n  border-bottom: 35px solid #66d49d;\n  border-left: 50px solid transparent;\n  border-right: 50px solid transparent;\n  content: '';\n  height: 0;\n  left: 0;\n  position: absolute;\n  top: -35px;\n  width: 0;\n}\n\n.doctor {\n  position: relative;\n  bottom: 110px;\n  margin-top: 80px;\n  width: 100%;\n  height: 464px;\n  background: #66d49d;\n}\n\n.imgs {\n  display: flex;\n  justify-content: center;\n}\n.imgs a {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.imgs > a img {\n  width: 100%;\n}\n.imgs > a img:hover {\n  opacity: 0.5;\n  transition: opacity 0.5s ease-out;\n}\n.imgs > a span {\n  color: white;\n  font-weight: bold;\n  font-size: 2em;\n  position: absolute;\n  top: 30%;\n}\n@media only screen and (max-width: 1024px) {\n  .text {\n    margin-bottom: 50px;\n  }\n}\n", ""]);
 
 // exports
 
