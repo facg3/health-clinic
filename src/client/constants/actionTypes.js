@@ -1,0 +1,3 @@
+export const DATA_FETCH_START = Symbol('DATA_FETCH_START');
+export const DATA_FETCH_SUCCESS = Symbol('DATA_FETCH_SUCCESS');
+export const DATA_FETCH_FAILURE = Symbol('DATA_FETCH_FAILURE');

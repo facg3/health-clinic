@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './navbar/Navbar';
+import Navbar from '../navbar/Navbar';
 import Slider from './slider/Slider';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
