@@ -1,0 +1,76 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin-right: 10vw;
+  margin-left: 1vw;
+  color: #55635C;
+  font-family: serif;
+}
+.logo{
+  display: flex;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar>ul{
+    display:  flex;
+    list-style:  none;
+}
+.firstUl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firstUl li a{
+  color: #66D49D;
+  font-size: 18px;
+  margin-right: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.firstUl li a:hover{
+  color: #55635C;
+}
+
+.secondUl li a{
+  color: #55635C;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.secondUl li a:hover{
+  color: #66D49D;
+}
+
+.login{
+  display: flex;
+  background-color: #3B5998;
+  align-self: center;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 10px;
+}
+.login>a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.login:hover{
+  background-color: #8b9dc3	;
+}
+
+
+@media only screen and (max-width:1024px){
+  h1{
+    font-size: 24px;
+  }
+}
