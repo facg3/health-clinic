@@ -1,0 +1,12 @@
+.aboutUs {
+  text-align: center;
+  align-content: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 250px;
+  background: #66d49d;
+}
+
+.aboutUs h1 {
+  color: white;
+}
