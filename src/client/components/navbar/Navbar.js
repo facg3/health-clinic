@@ -11,7 +11,7 @@ class Navbar extends Component {
         <ul className='firstUl'>
           <li><a href='#'>Home</a></li>
           <li><a href='#'>Doctors</a></li>
-          <li><a href='#'>About Us</a></li>
+          <li><a href='#aboutUs'>About Us</a></li>
           <li><a href='#'>Coutact</a></li>
         </ul>
         <ul className='secondUl'>
