@@ -1,4 +1,6 @@
 .aboutUs {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   align-content: center;
   padding-top: 30px;
@@ -8,5 +10,9 @@
 }
 
 .aboutUs h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   color: white;
+  margin: 0 auto;
 }

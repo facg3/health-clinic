@@ -5,7 +5,7 @@ import './AboutStyle.css';
 class About extends Component {
   render () {
     return (
-      <div className='aboutUs'>
+      <div id='aboutUs' className='aboutUs'>
       <h1>About Us</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry<br/>
        Lorem Ipsum has been the industrys standard dummy text ever since the 1550,<br/>
