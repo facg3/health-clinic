@@ -1,12 +1,21 @@
+require('env2')('config.env');
 const express = require('express');
 const path = require('path');
-
-const PORT = 9012;
-
 const app = express();
+const routes = require('./controllers/routes');
 
-app.use(express.static(path.join(__dirname, '../../public')));
+require('./middlewares/appMiddleware')(app, express);
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+  next();
+});
+app.use(routes);
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'public', 'index.html'));
+});
+
+app.listen(process.env.PORT || 3000, () => {
+  console.log('server runs on 3000');
 });
