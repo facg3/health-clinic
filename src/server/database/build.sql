@@ -30,10 +30,15 @@ CREATE TABLE "secretary" (
 
 
 CREATE TABLE "patients" (
-	"id" SERIAL PRIMARY KEY,
-	"name" VARCHAR(100) NOT NULL,
-	"phone" VARCHAR
-
+ 	"id" serial PRIMARY KEY,
+ 	"name" varchar(100) NOT NULL,
+ 	"phone" varchar(50) NOT NULL,
+ 	"DOB" DATE NOT NULL,
+ 	"note" TEXT NOT NULL,
+ 	"visit" integer NOT NULL,
+ 	"time" TIME NOT NULL,
+ 	"interval" integer NOT NULL
+ );
 
 
 CREATE TABLE "appointments" (
