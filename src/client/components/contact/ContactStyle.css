@@ -17,10 +17,11 @@ a {
 .contactUs {
   display: flex;
   flex-flow: row wrap;
+  padding-top: 2px;
 }
 
 section {
-  background: rgb(55, 55, 55);
+  background: #66D49D;
   margin-top: auto;
   width: 100%;
 }
@@ -37,13 +38,30 @@ section {
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
+  font-weight: bold;
   font: 2.3vw "Oswald", sans-serif;
 }
 
-.footer-list-anchor {
-  font: 1.3em "Open Sans", sans-serif;
+hr {
+  color: #800000;
+  size: 1px;
+  width: 35%;
+}
+.vl{
+  border-left: 1px solid gray;
 }
 
+.footer-list-anchor {
+  font: 24px "Roboto";
+  font-weight: bold;
+  color: white;
+}
+
+.footer-list-anchor2 {
+  font: 18px "Roboto";
+  color: #fff;
+  font-weight: lighter;
+}
 
 @media only screen and (max-width: 768px) {
   .footer-list-header {
