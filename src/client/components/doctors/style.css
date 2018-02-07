@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.dr_location {
+  position: relative;
+  top: 16.5%;
+}
+.fa {
+  bottom: 12px;
+  position: relative;
+}
+.text {
+  position: relative;
+  top: 30px;
+  margin-top: -33px;
+  text-align: center;
+  color: #55635c;
+}
+.text p {
+  font-size: 12px;
+}
+.base {
+  background: #fff;
+  display: inline-block;
+  height: 55px;
+  text-align: center;
+  color: #eb5757;
+  font-size: 53px;
+  margin-top: -42px;
+  position: relative;
+  width: 100px;
+}
+
+.base:before {
+  border-bottom: 35px solid #fff;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: '';
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+
+.doctor {
+  position: relative;
+  bottom: 110px;
+  margin-top: 0px;
+  width: 100%;
+  height: 464px;
+  background: #fff;
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+}
+.imgs a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgs > a img {
+  width: 100%;
+}
+.imgs > a img:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-out;
+}
+.imgs > a span {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  position: absolute;
+  top: 30%;
+}
+@media only screen and (max-width: 1024px) {
+  .text {
+    margin-bottom: 50px;
+  }
+}
