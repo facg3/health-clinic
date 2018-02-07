@@ -42,11 +42,13 @@ a {
 .contactUs {
   display: flex;
   flex-flow: row wrap;
-  height: 370px;
+
+  padding-top: 2px;
 }
 
 section {
-  background: #66d49d;
+  background: #66D49D;
+
   margin-top: auto;
   width: 100%;
 }
@@ -63,11 +65,30 @@ section {
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
-  font: 2.3vw 'Oswald', sans-serif;
+
+  font-weight: bold;
+  font: 2.3vw "Oswald", sans-serif;
+}
+
+hr {
+  color: #800000;
+  size: 1px;
+  width: 35%;
+}
+.vl{
+  border-left: 1px solid gray;
 }
 
 .footer-list-anchor {
-  font: 1.3em 'Open Sans', sans-serif;
+  font: 24px "Roboto";
+  font-weight: bold;
+  color: white;
+}
+
+.footer-list-anchor2 {
+  font: 18px "Roboto";
+  color: #fff;
+  font-weight: lighter;
 }
 
 @media only screen and (max-width: 768px) {
