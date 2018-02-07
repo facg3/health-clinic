@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import './ContactStyle.css';
 
 class Contact extends Component {
-  render () {
+  render() {
     return (
+
       <div id='contactUs' className='contactUs'>
       <section className='contactUs'>
   <ul className="footer-list-top">
@@ -35,7 +36,8 @@ class Contact extends Component {
   </ul>
 </section>
      </div>
-    )
+    );
+
   }
 }
 
